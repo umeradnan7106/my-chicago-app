@@ -2,7 +2,7 @@
 
 client_id = "3e90c7424b79499350603948f37e9f90"
 name = "my-chicago-second-app"
-application_url = "https://example.com"
+application_url = "https://my-chicago-app.vercel.app"
 embedded = true
 
 [build]
@@ -25,4 +25,4 @@ api_version = "2026-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://my-chicago-app.vercel.app/api/auth" ]
